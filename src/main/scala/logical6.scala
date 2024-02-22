@@ -10,7 +10,7 @@ object logical6 {
       arr(i)=scala.io.StdIn.readInt()
     }
 
-//    println("enter the element")
+    println("enter the element")
     for(i<- 0 until size ){
       if(i%2==0) {
         println(arr(i))
